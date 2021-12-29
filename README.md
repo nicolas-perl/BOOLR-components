@@ -1,20 +1,22 @@
 # BOOLR-components
 
-## About / Synopsis
+## About
 
-* What is it, what does it do / Abstract
+* Version 1.0
+* The provided usefulComonents.board file provides useful, logic components for BOOLR.
 
 ## Table of contents
 
->   * [Installation]
->   * [Usage]
->     * [Content]
->     * [Deployment (how to install build product)]
->   * [About nicolas-perl]
+>   * Installation
+>   * Usage
+>     * Content
+>     * Screenshots
+>     * Deployment (how to install)
+>   * About nicolas-perl
 
-## Installation[#installation]
+## About BOOLR
 
-BOOLR.me a digital logic simulator. It was created with JavaScript and lots of love and works with Windows, Mac OS and Linux and it is completely free. 
+BOOLR.me is a digital logic simulator. It was created with JavaScript and lots of love and works with Windows, Mac OS and Linux and it is completely free. 
 
 See [BOOLR download links](https://github.com/ggbrw/boolr/releases).
 
@@ -22,17 +24,21 @@ See [BOOLR download links](https://github.com/ggbrw/boolr/releases).
 
 ### Content
 
-Description, sub-modules organization...
+In the .board file you can find the following components:
+* NOT, AND, OR, XOR, NOR, XNOR, NAND
+* Comperator, Enable-Comperator, 3-Bit Comperator
+* Decoder, Encoder, MUX, DEMUX
+* D-FlipFlop, RS-Latch, 1-Bit Register
+* Half- & Fullsubtractor
+* Half- & Fulladder, 4-bit and 8-bit Adder
 
-<a href="url"><img src="https://github.com/nicolas-perl/BOOLR-components/blob/main/useful-Components-v1.0/usefulComponents.PNG" align="left" height="1000" width="840" ></a>
+### Screenshots
 
----
+![](https://github.com/nicolas-perl/BOOLR-components/blob/main/useful-Components-v1.0/usefulComponents.PNG)
 
 ### Deployment
 
-Direct to MP package if any. Otherwise provide steps to deploy on Nuxeo Platform:
+* Please download the .board file and place it in the following directory to make it available in your BOOLR workspace:
+* ..\BOOLR\resources\app\saves
 
-## About nicolas-perl
-
-
-For more information or questions please refer to [nicolasperl.dev](https://nicolasperl.dev).
+For more information or questions please refer to my <a href= "mailto:nicolas.leon.perl@gmail.com">Mail</a> or to [nicolasperl.dev](https://nicolasperl.dev).
